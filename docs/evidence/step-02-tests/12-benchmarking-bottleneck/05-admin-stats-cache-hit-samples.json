@@ -1,0 +1,362 @@
+﻿[
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  72,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131012889
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  55,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131012935
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  46,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131012992
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  40,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013042
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  47,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013084
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  49,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013135
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  46,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013194
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  32,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013228
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  33,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013263
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  48,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013305
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  63,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013362
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  35,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013417
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  36,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013453
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  40,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013489
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  29,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013528
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  26,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013557
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  33,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013586
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  32,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013620
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  29,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013651
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  29,
+        "body":  {
+                     "success":  true,
+                     "message":  "Admin stats fetched successfully",
+                     "data":  {
+                                  "ordersLast24h":  276,
+                                  "revenueLast24h":  13639.0,
+                                  "activeThreads":  32,
+                                  "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                                  "timestamp":  "2026-06-11T01:36:52.808968200"
+                              },
+                     "timestamp":  1781131013683
+                 },
+        "errorMessage":  null
+    }
+]

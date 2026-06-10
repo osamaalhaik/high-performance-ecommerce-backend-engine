@@ -1,0 +1,11 @@
+﻿{
+    "success":  true,
+    "message":  "Batch lock status fetched successfully",
+    "data":  {
+                 "timestamp":  "2026-06-10T19:19:45.961221200",
+                 "lockKey":  "lock:daily-sales-batch",
+                 "ttlSeconds":  -2,
+                 "locked":  false
+             },
+    "timestamp":  1781108385961
+}

@@ -1,0 +1,12 @@
+﻿{
+    "success":  false,
+    "httpStatus":  423,
+    "body":  {
+                 "success":  false,
+                 "message":  "Batch is already running under a Redis distributed lock",
+                 "data":  "lock:daily-sales-batch",
+                 "timestamp":  1781125649327
+             },
+    "rawBody":  "{\"success\":false,\"message\":\"Batch is already running under a Redis distributed lock\",\"data\":\"lock:daily-sales-batch\",\"timestamp\":1781125649327}",
+    "errorMessage":  "Batch is already running under a Redis distributed lock"
+}

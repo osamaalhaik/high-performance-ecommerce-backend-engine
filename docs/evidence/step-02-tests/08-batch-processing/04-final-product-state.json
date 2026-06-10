@@ -1,0 +1,14 @@
+﻿{
+    "success":  true,
+    "message":  null,
+    "data":  {
+                 "id":  "6473f2f6-2449-4232-9f9a-cad054cde1f4",
+                 "name":  "Batch Processing Product 20260611001313223",
+                 "description":  "Batch processing verification product",
+                 "price":  5.0,
+                 "stockQuantity":  10,
+                 "version":  5,
+                 "createdAt":  "2026-06-11T00:13:13.65022"
+             },
+    "timestamp":  1781126004410
+}

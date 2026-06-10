@@ -1,0 +1,12 @@
+﻿{
+    "success":  false,
+    "httpStatus":  400,
+    "body":  {
+                 "success":  false,
+                 "message":  "Insufficient wallet balance. Available=10000.0, required=12000.0",
+                 "data":  null,
+                 "timestamp":  1781125887556
+             },
+    "rawBody":  "{\"success\":false,\"message\":\"Insufficient wallet balance. Available=10000.0, required=12000.0\",\"data\":null,\"timestamp\":1781125887556}",
+    "errorMessage":  "Insufficient wallet balance. Available=10000.0, required=12000.0"
+}

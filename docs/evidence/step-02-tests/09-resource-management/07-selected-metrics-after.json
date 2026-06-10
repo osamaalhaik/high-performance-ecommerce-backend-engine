@@ -1,0 +1,320 @@
+﻿[
+    {
+        "name":  "jvm.threads.live",
+        "available":  true,
+        "metric":  {
+                       "name":  "jvm.threads.live",
+                       "description":  "The current number of live threads including both daemon and non-daemon threads",
+                       "baseUnit":  "threads",
+                       "measurements":  [
+                                            {
+                                                "statistic":  "VALUE",
+                                                "value":  38.0
+                                            }
+                                        ],
+                       "availableTags":  [
+
+                                         ]
+                   },
+        "errorMessage":  null
+    },
+    {
+        "name":  "jvm.threads.daemon",
+        "available":  true,
+        "metric":  {
+                       "name":  "jvm.threads.daemon",
+                       "description":  "The current number of live daemon threads",
+                       "baseUnit":  "threads",
+                       "measurements":  [
+                                            {
+                                                "statistic":  "VALUE",
+                                                "value":  33.0
+                                            }
+                                        ],
+                       "availableTags":  [
+
+                                         ]
+                   },
+        "errorMessage":  null
+    },
+    {
+        "name":  "jvm.threads.peak",
+        "available":  true,
+        "metric":  {
+                       "name":  "jvm.threads.peak",
+                       "description":  "The peak live thread count since the Java virtual machine started or peak was reset",
+                       "baseUnit":  "threads",
+                       "measurements":  [
+                                            {
+                                                "statistic":  "VALUE",
+                                                "value":  38.0
+                                            }
+                                        ],
+                       "availableTags":  [
+
+                                         ]
+                   },
+        "errorMessage":  null
+    },
+    {
+        "name":  "http.server.requests",
+        "available":  true,
+        "metric":  {
+                       "name":  "http.server.requests",
+                       "baseUnit":  "seconds",
+                       "measurements":  [
+                                            {
+                                                "statistic":  "COUNT",
+                                                "value":  95.0
+                                            },
+                                            {
+                                                "statistic":  "TOTAL_TIME",
+                                                "value":  51.0765768
+                                            },
+                                            {
+                                                "statistic":  "MAX",
+                                                "value":  6.6272943
+                                            }
+                                        ],
+                       "availableTags":  [
+                                             {
+                                                 "tag":  "exception",
+                                                 "values":  [
+                                                                "none"
+                                                            ]
+                                             },
+                                             {
+                                                 "tag":  "method",
+                                                 "values":  [
+                                                                "POST",
+                                                                "GET"
+                                                            ]
+                                             },
+                                             {
+                                                 "tag":  "error",
+                                                 "values":  [
+                                                                "none"
+                                                            ]
+                                             },
+                                             {
+                                                 "tag":  "uri",
+                                                 "values":  [
+                                                                "/actuator/metrics/{requiredMetricName}",
+                                                                "/api/auth/register",
+                                                                "/api/admin/batch/run",
+                                                                "/api/auth/login",
+                                                                "/api/orders/my",
+                                                                "/api/orders",
+                                                                "/actuator/health",
+                                                                "UNKNOWN",
+                                                                "/api/admin/batch/lock-status",
+                                                                "/actuator/metrics",
+                                                                "/api/products/{id}",
+                                                                "/api/products"
+                                                            ]
+                                             },
+                                             {
+                                                 "tag":  "outcome",
+                                                 "values":  [
+                                                                "CLIENT_ERROR",
+                                                                "SUCCESS"
+                                                            ]
+                                             },
+                                             {
+                                                 "tag":  "status",
+                                                 "values":  [
+                                                                "200",
+                                                                "201",
+                                                                "400",
+                                                                "423",
+                                                                "403"
+                                                            ]
+                                             }
+                                         ]
+                   },
+        "errorMessage":  null
+    },
+    {
+        "name":  "hikaricp.connections.active",
+        "available":  true,
+        "metric":  {
+                       "name":  "hikaricp.connections.active",
+                       "description":  "Active connections",
+                       "measurements":  [
+                                            {
+                                                "statistic":  "VALUE",
+                                                "value":  0.0
+                                            }
+                                        ],
+                       "availableTags":  [
+                                             {
+                                                 "tag":  "pool",
+                                                 "values":  [
+                                                                "HikariPool-1"
+                                                            ]
+                                             }
+                                         ]
+                   },
+        "errorMessage":  null
+    },
+    {
+        "name":  "hikaricp.connections.idle",
+        "available":  true,
+        "metric":  {
+                       "name":  "hikaricp.connections.idle",
+                       "description":  "Idle connections",
+                       "measurements":  [
+                                            {
+                                                "statistic":  "VALUE",
+                                                "value":  6.0
+                                            }
+                                        ],
+                       "availableTags":  [
+                                             {
+                                                 "tag":  "pool",
+                                                 "values":  [
+                                                                "HikariPool-1"
+                                                            ]
+                                             }
+                                         ]
+                   },
+        "errorMessage":  null
+    },
+    {
+        "name":  "hikaricp.connections.max",
+        "available":  true,
+        "metric":  {
+                       "name":  "hikaricp.connections.max",
+                       "description":  "Max connections",
+                       "measurements":  [
+                                            {
+                                                "statistic":  "VALUE",
+                                                "value":  20.0
+                                            }
+                                        ],
+                       "availableTags":  [
+                                             {
+                                                 "tag":  "pool",
+                                                 "values":  [
+                                                                "HikariPool-1"
+                                                            ]
+                                             }
+                                         ]
+                   },
+        "errorMessage":  null
+    },
+    {
+        "name":  "system.cpu.usage",
+        "available":  true,
+        "metric":  {
+                       "name":  "system.cpu.usage",
+                       "description":  "The \"recent cpu usage\" of the system the application is running in",
+                       "measurements":  [
+                                            {
+                                                "statistic":  "VALUE",
+                                                "value":  0.5981093638425518
+                                            }
+                                        ],
+                       "availableTags":  [
+
+                                         ]
+                   },
+        "errorMessage":  null
+    },
+    {
+        "name":  "process.cpu.usage",
+        "available":  true,
+        "metric":  {
+                       "name":  "process.cpu.usage",
+                       "description":  "The \"recent cpu usage\" for the Java Virtual Machine process",
+                       "measurements":  [
+                                            {
+                                                "statistic":  "VALUE",
+                                                "value":  0.004727047853183611
+                                            }
+                                        ],
+                       "availableTags":  [
+
+                                         ]
+                   },
+        "errorMessage":  null
+    },
+    {
+        "name":  "executor.active",
+        "available":  true,
+        "metric":  {
+                       "name":  "executor.active",
+                       "description":  "The approximate number of threads that are actively executing tasks",
+                       "baseUnit":  "threads",
+                       "measurements":  [
+                                            {
+                                                "statistic":  "VALUE",
+                                                "value":  0.0
+                                            }
+                                        ],
+                       "availableTags":  [
+                                             {
+                                                 "tag":  "name",
+                                                 "values":  [
+                                                                "batchExecutor",
+                                                                "taskScheduler",
+                                                                "taskExecutor"
+                                                            ]
+                                             }
+                                         ]
+                   },
+        "errorMessage":  null
+    },
+    {
+        "name":  "executor.pool.size",
+        "available":  true,
+        "metric":  {
+                       "name":  "executor.pool.size",
+                       "description":  "The current number of threads in the pool",
+                       "baseUnit":  "threads",
+                       "measurements":  [
+                                            {
+                                                "statistic":  "VALUE",
+                                                "value":  1.0
+                                            }
+                                        ],
+                       "availableTags":  [
+                                             {
+                                                 "tag":  "name",
+                                                 "values":  [
+                                                                "batchExecutor",
+                                                                "taskScheduler",
+                                                                "taskExecutor"
+                                                            ]
+                                             }
+                                         ]
+                   },
+        "errorMessage":  null
+    },
+    {
+        "name":  "executor.queue.remaining",
+        "available":  true,
+        "metric":  {
+                       "name":  "executor.queue.remaining",
+                       "description":  "The number of additional elements that this queue can ideally accept without blocking",
+                       "baseUnit":  "tasks",
+                       "measurements":  [
+                                            {
+                                                "statistic":  "VALUE",
+                                                "value":  2147483797
+                                            }
+                                        ],
+                       "availableTags":  [
+                                             {
+                                                 "tag":  "name",
+                                                 "values":  [
+                                                                "batchExecutor",
+                                                                "taskScheduler",
+                                                                "taskExecutor"
+                                                            ]
+                                             }
+                                         ]
+                   },
+        "errorMessage":  null
+    }
+]

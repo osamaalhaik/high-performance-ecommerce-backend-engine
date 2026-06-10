@@ -1,0 +1,12 @@
+﻿{
+    "success":  true,
+    "message":  "Admin stats fetched successfully",
+    "data":  {
+                 "ordersLast24h":  23,
+                 "revenueLast24h":  13310.0,
+                 "activeThreads":  31,
+                 "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                 "timestamp":  "2026-06-10T19:30:55.899903"
+             },
+    "timestamp":  1781109055900
+}

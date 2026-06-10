@@ -1,0 +1,42 @@
+﻿[
+    {
+        "index":  1,
+        "httpStatus":  201,
+        "success":  true,
+        "orderId":  "a6295fce-5176-4b38-914b-8fc3e83f507f",
+        "orderStatus":  "CONFIRMED",
+        "errorMessage":  null
+    },
+    {
+        "index":  2,
+        "httpStatus":  201,
+        "success":  true,
+        "orderId":  "d484dab9-d7e5-4d0f-9227-1a4e4072b366",
+        "orderStatus":  "CONFIRMED",
+        "errorMessage":  null
+    },
+    {
+        "index":  3,
+        "httpStatus":  201,
+        "success":  true,
+        "orderId":  "1c0df2d9-a7f9-4f08-abf6-2dee32d5ce0c",
+        "orderStatus":  "CONFIRMED",
+        "errorMessage":  null
+    },
+    {
+        "index":  4,
+        "httpStatus":  201,
+        "success":  true,
+        "orderId":  "b87b1a52-987b-4f7d-98e5-48b75678d7d3",
+        "orderStatus":  "CONFIRMED",
+        "errorMessage":  null
+    },
+    {
+        "index":  5,
+        "httpStatus":  201,
+        "success":  true,
+        "orderId":  "55ebc08f-c888-4dd5-9973-510ef0f5be21",
+        "orderStatus":  "CONFIRMED",
+        "errorMessage":  null
+    }
+]

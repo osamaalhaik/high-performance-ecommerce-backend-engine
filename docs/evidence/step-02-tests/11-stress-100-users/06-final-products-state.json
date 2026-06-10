@@ -1,0 +1,107 @@
+﻿[
+    {
+        "index":  1,
+        "id":  "d099add1-b8b2-4c1d-984a-370042b30965",
+        "initialStock":  30,
+        "finalStock":  10,
+        "sold":  20,
+        "response":  {
+                         "success":  true,
+                         "message":  null,
+                         "data":  {
+                                      "id":  "d099add1-b8b2-4c1d-984a-370042b30965",
+                                      "name":  "Stress Product 20260611013406583 1",
+                                      "description":  "100 concurrent users stress product 1",
+                                      "price":  1.0,
+                                      "stockQuantity":  10,
+                                      "version":  20,
+                                      "createdAt":  "2026-06-11T01:34:07.842785"
+                                  },
+                         "timestamp":  1781130914636
+                     }
+    },
+    {
+        "index":  2,
+        "id":  "5bb9f8d4-7636-4b08-8a8a-87f090d68d0e",
+        "initialStock":  30,
+        "finalStock":  10,
+        "sold":  20,
+        "response":  {
+                         "success":  true,
+                         "message":  null,
+                         "data":  {
+                                      "id":  "5bb9f8d4-7636-4b08-8a8a-87f090d68d0e",
+                                      "name":  "Stress Product 20260611013406583 2",
+                                      "description":  "100 concurrent users stress product 2",
+                                      "price":  1.0,
+                                      "stockQuantity":  10,
+                                      "version":  20,
+                                      "createdAt":  "2026-06-11T01:34:07.969821"
+                                  },
+                         "timestamp":  1781130914648
+                     }
+    },
+    {
+        "index":  3,
+        "id":  "8ad637db-3031-4478-9d32-b61b86814249",
+        "initialStock":  30,
+        "finalStock":  10,
+        "sold":  20,
+        "response":  {
+                         "success":  true,
+                         "message":  null,
+                         "data":  {
+                                      "id":  "8ad637db-3031-4478-9d32-b61b86814249",
+                                      "name":  "Stress Product 20260611013406583 3",
+                                      "description":  "100 concurrent users stress product 3",
+                                      "price":  1.0,
+                                      "stockQuantity":  10,
+                                      "version":  20,
+                                      "createdAt":  "2026-06-11T01:34:07.998809"
+                                  },
+                         "timestamp":  1781130914656
+                     }
+    },
+    {
+        "index":  4,
+        "id":  "ff95fc72-85a3-4d4c-a16c-eb88e6a74217",
+        "initialStock":  30,
+        "finalStock":  10,
+        "sold":  20,
+        "response":  {
+                         "success":  true,
+                         "message":  null,
+                         "data":  {
+                                      "id":  "ff95fc72-85a3-4d4c-a16c-eb88e6a74217",
+                                      "name":  "Stress Product 20260611013406583 4",
+                                      "description":  "100 concurrent users stress product 4",
+                                      "price":  1.0,
+                                      "stockQuantity":  10,
+                                      "version":  20,
+                                      "createdAt":  "2026-06-11T01:34:08.031895"
+                                  },
+                         "timestamp":  1781130914664
+                     }
+    },
+    {
+        "index":  5,
+        "id":  "019f9897-9464-47a3-931a-43e517729393",
+        "initialStock":  30,
+        "finalStock":  10,
+        "sold":  20,
+        "response":  {
+                         "success":  true,
+                         "message":  null,
+                         "data":  {
+                                      "id":  "019f9897-9464-47a3-931a-43e517729393",
+                                      "name":  "Stress Product 20260611013406583 5",
+                                      "description":  "100 concurrent users stress product 5",
+                                      "price":  1.0,
+                                      "stockQuantity":  10,
+                                      "version":  20,
+                                      "createdAt":  "2026-06-11T01:34:08.063328"
+                                  },
+                         "timestamp":  1781130914670
+                     }
+    }
+]

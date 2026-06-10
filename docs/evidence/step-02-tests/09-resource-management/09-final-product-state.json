@@ -1,0 +1,14 @@
+﻿{
+    "success":  true,
+    "message":  null,
+    "data":  {
+                 "id":  "666b05cd-4d11-4939-b994-401f7d07dc2f",
+                 "name":  "Resource Management Product 20260611001547957",
+                 "description":  "Resource management verification product",
+                 "price":  3.0,
+                 "stockQuantity":  4,
+                 "version":  6,
+                 "createdAt":  "2026-06-11T00:15:48.459213"
+             },
+    "timestamp":  1781126162286
+}

@@ -10,35 +10,33 @@ import java.util.concurrent.CompletableFuture;
 @Slf4j
 public class NotificationService {
 
-    @Async("taskExecutor")
-    public CompletableFuture<Void> sendOrderConfirmationAsync(String email, String orderId) {
-        log.info("[ASYNC-NOTIFICATION] Sending confirmation email | email={} | order={} | thread={}",
+    public void sendOrderConfirmation(String email, String orderId) {
+        log.info("[NOTIFICATION] Sending confirmation email | email={} | order={} | thread={}",
                 email, orderId, Thread.currentThread().getName());
 
         try {
             Thread.sleep(500);
-            log.info("[ASYNC-NOTIFICATION] Confirmation email sent | email={} | order={}", email, orderId);
+            log.info("[NOTIFICATION] Confirmation email sent | email={} | order={}", email, orderId);
         } catch (InterruptedException ex) {
             Thread.currentThread().interrupt();
-            log.error("[ASYNC-NOTIFICATION] Interrupted while sending email", ex);
+            throw new IllegalStateException("Order confirmation notification interrupted", ex);
         }
+    }
 
+    public void sendLowStockAlert(String productName, int currentQuantity) {
+        log.warn("[NOTIFICATION] Low stock alert | product={} | quantity={} | thread={}",
+                productName, currentQuantity, Thread.currentThread().getName());
+    }
+
+    @Async("taskExecutor")
+    public CompletableFuture<Void> sendOrderConfirmationAsync(String email, String orderId) {
+        sendOrderConfirmation(email, orderId);
         return CompletableFuture.completedFuture(null);
     }
 
     @Async("taskExecutor")
     public CompletableFuture<Void> sendLowStockAlertAsync(String productName, int currentQuantity) {
-        log.warn("[ASYNC-NOTIFICATION] Low stock alert | product={} | quantity={} | thread={}",
-                productName, currentQuantity, Thread.currentThread().getName());
-
+        sendLowStockAlert(productName, currentQuantity);
         return CompletableFuture.completedFuture(null);
     }
 }
-
-
-
-
-
-
-
-

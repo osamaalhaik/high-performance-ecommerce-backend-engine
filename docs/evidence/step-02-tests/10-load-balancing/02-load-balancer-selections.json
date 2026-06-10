@@ -1,0 +1,74 @@
+﻿[
+    {
+        "index":  1,
+        "success":  true,
+        "selectedServer":  "server-1:8081",
+        "message":  "Next server selected"
+    },
+    {
+        "index":  2,
+        "success":  true,
+        "selectedServer":  "server-1:8081",
+        "message":  "Next server selected"
+    },
+    {
+        "index":  3,
+        "success":  true,
+        "selectedServer":  "server-2:8082",
+        "message":  "Next server selected"
+    },
+    {
+        "index":  4,
+        "success":  true,
+        "selectedServer":  "server-1:8081",
+        "message":  "Next server selected"
+    },
+    {
+        "index":  5,
+        "success":  true,
+        "selectedServer":  "server-2:8082",
+        "message":  "Next server selected"
+    },
+    {
+        "index":  6,
+        "success":  true,
+        "selectedServer":  "server-3:8083",
+        "message":  "Next server selected"
+    },
+    {
+        "index":  7,
+        "success":  true,
+        "selectedServer":  "server-1:8081",
+        "message":  "Next server selected"
+    },
+    {
+        "index":  8,
+        "success":  true,
+        "selectedServer":  "server-1:8081",
+        "message":  "Next server selected"
+    },
+    {
+        "index":  9,
+        "success":  true,
+        "selectedServer":  "server-2:8082",
+        "message":  "Next server selected"
+    },
+    {
+        "index":  10,
+        "success":  true,
+        "selectedServer":  "server-1:8081",
+        "message":  "Next server selected"
+    },
+    {
+        "index":  11,
+        "success":  true,
+        "selectedServer":  "server-2:8082",
+        "message":  "Next server selected"
+    },
+    {
+        "index":  12,
+        "success":  true,
+        "selectedServer":  "server-3:8083",
+        "message":  "Next server selected"
+    }
+]

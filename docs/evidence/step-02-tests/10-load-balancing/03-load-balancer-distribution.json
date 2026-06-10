@@ -1,0 +1,14 @@
+﻿[
+    {
+        "server":  "server-1:8081",
+        "count":  6
+    },
+    {
+        "server":  "server-2:8082",
+        "count":  4
+    },
+    {
+        "server":  "server-3:8083",
+        "count":  2
+    }
+]

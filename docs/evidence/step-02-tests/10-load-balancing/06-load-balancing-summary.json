@@ -1,0 +1,21 @@
+﻿{
+    "testName":  "Load balancing and scaling strategy verification test",
+    "baseUrl":  "http://localhost:9090",
+    "requests":  12,
+    "totalSelections":  12,
+    "uniqueServerCount":  3,
+    "maxServerSelectionCount":  6,
+    "minServerSelectionCount":  2,
+    "allSelectionsSuccessful":  true,
+    "endpointReturnedMultipleServers":  true,
+    "weightedDistributionObserved":  true,
+    "nginxConfigExists":  true,
+    "nginxUpstreamConfigured":  true,
+    "nginxMultipleBackendsConfigured":  true,
+    "loadBalancerConfigExists":  true,
+    "weightedRoundRobinCodeExists":  true,
+    "currentInstanceName":  "ecommerce-engine-local",
+    "currentInstancePort":  "9090",
+    "loadBalancingRequirementSatisfied":  true,
+    "timestamp":  "2026-06-11T00:17:39"
+}
