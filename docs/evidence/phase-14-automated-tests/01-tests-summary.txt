@@ -1,2 +1,0 @@
-﻿Automated tests added for Spring context, order DTOs, product inventory fields, and user wallet payment logic. Maven test now runs real tests instead of reporting No tests to run.
-

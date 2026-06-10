@@ -1,2 +1,0 @@
-﻿Wallet payment transaction verified successfully. Product stock decreased from 5 to 4 after order. Order total was 1200.
-

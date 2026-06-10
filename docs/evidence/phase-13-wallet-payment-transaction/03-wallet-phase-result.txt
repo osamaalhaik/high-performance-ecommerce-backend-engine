@@ -1,2 +1,0 @@
-﻿Wallet column added successfully. Maven build succeeded. Application started on port 9090.
-

@@ -1,2 +1,0 @@
-﻿Order completed successfully. Product stock changed from 5 to 4. Product version changed from 542 to 543.
-
