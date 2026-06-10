@@ -30,6 +30,7 @@ public class AdminInitializer implements CommandLineRunner {
                 .email(adminEmail)
                 .passwordHash(passwordEncoder.encode("Admin123456"))
                 .fullName("System Admin")
+                .walletBalance(1000000.0)
                 .role(User.Role.ADMIN)
                 .build();
 

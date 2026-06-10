@@ -34,6 +34,10 @@ public class User {
     private String fullName;
 
     @Builder.Default
+    @Column(nullable = false)
+    private Double walletBalance = 10000.0;
+
+    @Builder.Default
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private Role role = Role.CUSTOMER;

@@ -2,6 +2,7 @@ package com.ecommerce.service;
 
 import com.ecommerce.dto.OrderDTOs;
 import com.ecommerce.entity.*;
+import com.ecommerce.exception.BusinessException;
 import com.ecommerce.exception.InsufficientStockException;
 import com.ecommerce.exception.ResourceNotFoundException;
 import com.ecommerce.repository.OrderRepository;
@@ -69,10 +70,6 @@ public class OrderService {
                 );
             }
 
-            product.setStockQuantity(product.getStockQuantity() - requestedQuantity);
-            productRepository.save(product);
-            evictProductCache(productId);
-
             OrderItem item = OrderItem.builder()
                     .product(product)
                     .quantity(requestedQuantity)
@@ -81,6 +78,27 @@ public class OrderService {
 
             orderItems.add(item);
             totalAmount += item.getSubtotal();
+        }
+
+        if (user.getWalletBalance() < totalAmount) {
+            throw new BusinessException(
+                    "Insufficient wallet balance. Available="
+                            + user.getWalletBalance()
+                            + ", required="
+                            + totalAmount
+            );
+        }
+
+        simulatePaymentGatewayDelay();
+
+        user.setWalletBalance(user.getWalletBalance() - totalAmount);
+        userRepository.save(user);
+
+        for (OrderItem item : orderItems) {
+            Product product = item.getProduct();
+            product.setStockQuantity(product.getStockQuantity() - item.getQuantity());
+            productRepository.save(product);
+            evictProductCache(product.getId());
         }
 
         Order order = Order.builder()
@@ -110,10 +128,11 @@ public class OrderService {
         savedOrder.setPayment(payment);
 
         log.info(
-                "[ORDER] Order confirmed | order={} | user={} | total={} | items={}",
+                "[ORDER] Order confirmed | order={} | user={} | total={} | remainingWallet={} | items={}",
                 savedOrder.getId(),
                 userId,
                 totalAmount,
+                user.getWalletBalance(),
                 orderItems.size()
         );
 
@@ -144,6 +163,15 @@ public class OrderService {
         }
 
         return merged;
+    }
+
+    private void simulatePaymentGatewayDelay() {
+        try {
+            Thread.sleep(1200);
+        } catch (InterruptedException ex) {
+            Thread.currentThread().interrupt();
+            throw new BusinessException("Payment simulation interrupted");
+        }
     }
 
     private void evictProductCache(String productId) {
