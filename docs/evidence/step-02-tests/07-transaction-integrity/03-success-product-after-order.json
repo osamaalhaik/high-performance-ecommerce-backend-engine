@@ -1,0 +1,14 @@
+﻿{
+    "success":  true,
+    "message":  null,
+    "data":  {
+                 "id":  "1e2a7d4d-fba5-4581-9105-a5a0abc94290",
+                 "name":  "ACID Success Product 20260611001123473",
+                 "description":  "Transaction success verification product",
+                 "price":  10.0,
+                 "stockQuantity":  1,
+                 "version":  1,
+                 "createdAt":  "2026-06-11T00:11:24.145388"
+             },
+    "timestamp":  1781125886439
+}
