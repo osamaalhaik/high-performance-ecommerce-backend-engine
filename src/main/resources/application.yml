@@ -1,6 +1,9 @@
 server:
   port: 9090
 
+app:
+  instance-name: ${APP_INSTANCE_NAME:ecommerce-engine-local}
+
 spring:
   application:
     name: ecommerce-engine
@@ -51,6 +54,12 @@ async:
   max-pool-size: 20
   queue-capacity: 100
   thread-name-prefix: "ecommerce-async-"
+
+queue:
+  async:
+    ready-key: ecommerce:queue:async-jobs
+    failed-key: ecommerce:queue:async-jobs:failed
+    worker-delay-ms: 1000
 
 management:
   endpoints:

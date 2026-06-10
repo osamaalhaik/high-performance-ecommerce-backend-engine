@@ -50,18 +50,9 @@ public class RedisConfig {
 
         return RedisCacheManager.builder(redisConnectionFactory)
                 .cacheDefaults(defaultConfig)
-                .withCacheConfiguration(
-                        "products",
-                        defaultConfig.entryTtl(Duration.ofMinutes(10))
-                )
-                .withCacheConfiguration(
-                        "hot-products",
-                        defaultConfig.entryTtl(Duration.ofMinutes(2))
-                )
-                .withCacheConfiguration(
-                        "users",
-                        defaultConfig.entryTtl(Duration.ofMinutes(30))
-                )
+                .withCacheConfiguration("products", defaultConfig.entryTtl(Duration.ofMinutes(10)))
+                .withCacheConfiguration("admin-stats", defaultConfig.entryTtl(Duration.ofSeconds(30)))
+                .withCacheConfiguration("users", defaultConfig.entryTtl(Duration.ofMinutes(30)))
                 .build();
     }
 }

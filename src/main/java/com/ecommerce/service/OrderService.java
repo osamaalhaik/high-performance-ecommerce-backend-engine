@@ -5,33 +5,34 @@ import com.ecommerce.entity.*;
 import com.ecommerce.exception.BusinessException;
 import com.ecommerce.exception.InsufficientStockException;
 import com.ecommerce.exception.ResourceNotFoundException;
+import com.ecommerce.queue.AsyncJobQueueService;
 import com.ecommerce.repository.OrderRepository;
 import com.ecommerce.repository.PaymentRepository;
 import com.ecommerce.repository.ProductRepository;
 import com.ecommerce.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.cache.Cache;
+import org.springframework.cache.CacheManager;
+import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Isolation;
 import org.springframework.transaction.annotation.Transactional;
-import org.springframework.stereotype.Service;
 
 import java.time.LocalDateTime;
 import java.util.*;
-
-import org.springframework.cache.Cache;
-import org.springframework.cache.CacheManager;
 
 @Service
 @RequiredArgsConstructor
 @Slf4j
 public class OrderService {
 
+    private static final int LOW_STOCK_THRESHOLD = 5;
+
     private final OrderRepository orderRepository;
     private final ProductRepository productRepository;
     private final PaymentRepository paymentRepository;
     private final UserRepository userRepository;
-    private final NotificationService notificationService;
-    private final InvoiceService invoiceService;
+    private final AsyncJobQueueService asyncJobQueueService;
     private final CacheManager cacheManager;
 
     @Transactional(
@@ -40,7 +41,7 @@ public class OrderService {
     )
     public OrderDTOs.OrderResponse placeOrder(String userId, OrderDTOs.CreateOrderRequest request) {
 
-        User user = userRepository.findById(userId)
+        User user = userRepository.findByIdForUpdate(userId)
                 .orElseThrow(() -> new ResourceNotFoundException("User not found"));
 
         Map<String, Integer> mergedItems = mergeDuplicateProducts(request.getItems());
@@ -62,6 +63,12 @@ public class OrderService {
                             "Product not found: " + productId
                     ));
 
+            log.debug("[SYNC] Product locked for stock update | product={} | stock={} | requested={}",
+                    product.getId(),
+                    product.getStockQuantity(),
+                    requestedQuantity
+            );
+
             if (product.getStockQuantity() < requestedQuantity) {
                 throw new InsufficientStockException(
                         "Insufficient stock for product: " + product.getName()
@@ -79,6 +86,12 @@ public class OrderService {
             orderItems.add(item);
             totalAmount += item.getSubtotal();
         }
+
+        log.debug("[SYNC] User wallet locked for payment | user={} | wallet={} | required={}",
+                user.getId(),
+                user.getWalletBalance(),
+                totalAmount
+        );
 
         if (user.getWalletBalance() < totalAmount) {
             throw new BusinessException(
@@ -98,7 +111,11 @@ public class OrderService {
             Product product = item.getProduct();
             product.setStockQuantity(product.getStockQuantity() - item.getQuantity());
             productRepository.save(product);
-            evictProductCache(product.getId());
+            evictCache("products", product.getId());
+
+            if (product.getStockQuantity() <= LOW_STOCK_THRESHOLD) {
+                asyncJobQueueService.enqueueLowStockJob(product.getName(), product.getStockQuantity());
+            }
         }
 
         Order order = Order.builder()
@@ -127,6 +144,8 @@ public class OrderService {
         paymentRepository.save(payment);
         savedOrder.setPayment(payment);
 
+        evictCache("admin-stats", "last24h");
+
         log.info(
                 "[ORDER] Order confirmed | order={} | user={} | total={} | remainingWallet={} | items={}",
                 savedOrder.getId(),
@@ -136,8 +155,8 @@ public class OrderService {
                 orderItems.size()
         );
 
-        invoiceService.generateInvoiceAsync(savedOrder.getId(), user.getEmail(), totalAmount);
-        notificationService.sendOrderConfirmationAsync(user.getEmail(), savedOrder.getId());
+        asyncJobQueueService.enqueueInvoiceJob(savedOrder.getId(), user.getEmail(), totalAmount);
+        asyncJobQueueService.enqueueOrderConfirmationJob(user.getEmail(), savedOrder.getId());
 
         return buildOrderResponse(savedOrder, "Order placed successfully");
     }
@@ -174,12 +193,12 @@ public class OrderService {
         }
     }
 
-    private void evictProductCache(String productId) {
-        Cache productsCache = cacheManager.getCache("products");
+    private void evictCache(String cacheName, String key) {
+        Cache cache = cacheManager.getCache(cacheName);
 
-        if (productsCache != null) {
-            productsCache.evict(productId);
-            log.debug("[CACHE] Evicted product cache after stock update: {}", productId);
+        if (cache != null) {
+            cache.evict(key);
+            log.debug("[CACHE] Evicted cache | cache={} | key={}", cacheName, key);
         }
     }
 
