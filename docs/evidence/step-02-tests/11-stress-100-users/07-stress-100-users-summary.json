@@ -21,10 +21,10 @@
     "healthAfterUp":  true,
     "stockIntegrityHolds":  true,
     "orderCountMatchesSoldStock":  true,
-    "minElapsedMs":  1324,
-    "maxElapsedMs":  6172,
-    "avgElapsedMs":  3815.49,
-    "totalStressElapsedMs":  25467,
+    "minElapsedMs":  1286,
+    "maxElapsedMs":  6131,
+    "avgElapsedMs":  3750.77,
+    "totalStressElapsedMs":  24800,
     "stressRequirementSatisfied":  true,
-    "timestamp":  "2026-06-11T01:35:14"
+    "timestamp":  "2026-06-11T01:57:37"
 }

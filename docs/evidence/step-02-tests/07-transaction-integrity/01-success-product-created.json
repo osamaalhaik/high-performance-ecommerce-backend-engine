@@ -2,13 +2,13 @@
     "success":  true,
     "message":  "Product created",
     "data":  {
-                 "id":  "1e2a7d4d-fba5-4581-9105-a5a0abc94290",
-                 "name":  "ACID Success Product 20260611001123473",
+                 "id":  "20f69f0b-4668-4cdd-a7d8-aceaf6cbb60d",
+                 "name":  "ACID Success Product 20260611015553290",
                  "description":  "Transaction success verification product",
                  "price":  10.0,
                  "stockQuantity":  3,
                  "version":  0,
-                 "createdAt":  "2026-06-11T00:11:24.1453876"
+                 "createdAt":  "2026-06-11T01:55:53.7668798"
              },
-    "timestamp":  1781125884201
+    "timestamp":  1781132153771
 }

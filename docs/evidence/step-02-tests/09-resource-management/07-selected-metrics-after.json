@@ -9,7 +9,7 @@
                        "measurements":  [
                                             {
                                                 "statistic":  "VALUE",
-                                                "value":  38.0
+                                                "value":  40.0
                                             }
                                         ],
                        "availableTags":  [
@@ -28,7 +28,7 @@
                        "measurements":  [
                                             {
                                                 "statistic":  "VALUE",
-                                                "value":  33.0
+                                                "value":  35.0
                                             }
                                         ],
                        "availableTags":  [
@@ -47,7 +47,7 @@
                        "measurements":  [
                                             {
                                                 "statistic":  "VALUE",
-                                                "value":  38.0
+                                                "value":  54.0
                                             }
                                         ],
                        "availableTags":  [
@@ -65,15 +65,15 @@
                        "measurements":  [
                                             {
                                                 "statistic":  "COUNT",
-                                                "value":  95.0
+                                                "value":  1296.0
                                             },
                                             {
                                                 "statistic":  "TOTAL_TIME",
-                                                "value":  51.0765768
+                                                "value":  1268.9430602999998
                                             },
                                             {
                                                 "statistic":  "MAX",
-                                                "value":  6.6272943
+                                                "value":  10.8210753
                                             }
                                         ],
                        "availableTags":  [
@@ -99,18 +99,20 @@
                                              {
                                                  "tag":  "uri",
                                                  "values":  [
-                                                                "/actuator/metrics/{requiredMetricName}",
                                                                 "/api/auth/register",
                                                                 "/api/admin/batch/run",
                                                                 "/api/auth/login",
                                                                 "/api/orders/my",
                                                                 "/api/orders",
-                                                                "/actuator/health",
-                                                                "UNKNOWN",
+                                                                "/api/admin/stats",
                                                                 "/api/admin/batch/lock-status",
+                                                                "/api/instance",
+                                                                "/api/products",
+                                                                "/actuator/metrics/{requiredMetricName}",
+                                                                "/api/admin/lb/next",
+                                                                "/actuator/health",
                                                                 "/actuator/metrics",
-                                                                "/api/products/{id}",
-                                                                "/api/products"
+                                                                "/api/products/{id}"
                                                             ]
                                              },
                                              {
@@ -127,7 +129,7 @@
                                                                 "201",
                                                                 "400",
                                                                 "423",
-                                                                "403"
+                                                                "409"
                                                             ]
                                              }
                                          ]
@@ -166,7 +168,7 @@
                        "measurements":  [
                                             {
                                                 "statistic":  "VALUE",
-                                                "value":  6.0
+                                                "value":  20.0
                                             }
                                         ],
                        "availableTags":  [
@@ -212,7 +214,7 @@
                        "measurements":  [
                                             {
                                                 "statistic":  "VALUE",
-                                                "value":  0.5981093638425518
+                                                "value":  0.22246319322639863
                                             }
                                         ],
                        "availableTags":  [
@@ -230,7 +232,7 @@
                        "measurements":  [
                                             {
                                                 "statistic":  "VALUE",
-                                                "value":  0.004727047853183611
+                                                "value":  0.0025651385959569017
                                             }
                                         ],
                        "availableTags":  [
@@ -249,7 +251,7 @@
                        "measurements":  [
                                             {
                                                 "statistic":  "VALUE",
-                                                "value":  0.0
+                                                "value":  1.0
                                             }
                                         ],
                        "availableTags":  [

@@ -2,13 +2,13 @@
     "success":  true,
     "message":  "Product created",
     "data":  {
-                 "id":  "ad0c6fa2-ea9e-4e3c-b401-4f019910a385",
-                 "name":  "Redis Queue Product 20260610193623176",
+                 "id":  "0d5e112d-b3a8-491d-a70b-413adcf5f019",
+                 "name":  "Redis Queue Product 20260611015525796",
                  "description":  "Redis queue verification product",
                  "price":  2.0,
                  "stockQuantity":  11,
                  "version":  0,
-                 "createdAt":  "2026-06-10T19:36:24.0428791"
+                 "createdAt":  "2026-06-11T01:55:26.5938688"
              },
-    "timestamp":  1781109384075
+    "timestamp":  1781132126598
 }

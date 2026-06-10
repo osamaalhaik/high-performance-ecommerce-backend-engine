@@ -2,13 +2,13 @@
     "success":  true,
     "message":  null,
     "data":  {
-                 "id":  "666b05cd-4d11-4939-b994-401f7d07dc2f",
-                 "name":  "Resource Management Product 20260611001547957",
+                 "id":  "3361e856-a74d-4219-9330-6c90401e2501",
+                 "name":  "Resource Management Product 20260611015608769",
                  "description":  "Resource management verification product",
                  "price":  3.0,
                  "stockQuantity":  4,
                  "version":  6,
-                 "createdAt":  "2026-06-11T00:15:48.459213"
+                 "createdAt":  "2026-06-11T01:56:09.326231"
              },
-    "timestamp":  1781126162286
+    "timestamp":  1781132181252
 }

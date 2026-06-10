@@ -2,13 +2,13 @@
     "success":  true,
     "message":  null,
     "data":  {
-                 "id":  "1c87eb3c-80f5-42b7-8ae1-7f845f15492e",
-                 "name":  "ACID Rollback Product 20260611001123473",
+                 "id":  "ab653531-c3bc-4831-b0cb-5669400d4f6f",
+                 "name":  "ACID Rollback Product 20260611015553290",
                  "description":  "Transaction rollback verification product",
                  "price":  12000.0,
                  "stockQuantity":  1,
                  "version":  0,
-                 "createdAt":  "2026-06-11T00:11:26.552324"
+                 "createdAt":  "2026-06-11T01:55:55.768501"
              },
-    "timestamp":  1781125887579
+    "timestamp":  1781132156251
 }

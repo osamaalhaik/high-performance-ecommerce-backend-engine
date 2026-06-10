@@ -2,20 +2,20 @@
     "success":  true,
     "message":  "Order placed successfully",
     "data":  {
-                 "orderId":  "c1846856-cb09-4e11-b7a4-bb4c7889fd77",
+                 "orderId":  "25051179-ebb8-4879-9f13-6e34ce7eff10",
                  "status":  "CONFIRMED",
                  "totalAmount":  50.0,
                  "items":  [
                                {
-                                   "productId":  "2e9c971a-e2a0-4e39-9393-e894552c48d8",
-                                   "productName":  "Smoke Test Product 20260610191941804",
+                                   "productId":  "04d3fb69-52df-45d8-af28-02e70e4acb73",
+                                   "productName":  "Smoke Test Product 20260611015456382",
                                    "quantity":  2,
                                    "unitPrice":  25.0,
                                    "subtotal":  50.0
                                }
                            ],
-                 "createdAt":  "2026-06-10T19:19:45.6885814",
+                 "createdAt":  "2026-06-11T01:54:59.0808994",
                  "message":  "Order placed successfully"
              },
-    "timestamp":  1781108385777
+    "timestamp":  1781132099127
 }

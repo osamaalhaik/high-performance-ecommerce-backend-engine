@@ -2,13 +2,13 @@
     "success":  true,
     "message":  null,
     "data":  {
-                 "id":  "2e9c971a-e2a0-4e39-9393-e894552c48d8",
-                 "name":  "Smoke Test Product 20260610191941804",
+                 "id":  "04d3fb69-52df-45d8-af28-02e70e4acb73",
+                 "name":  "Smoke Test Product 20260611015456382",
                  "description":  "Runtime smoke test product",
                  "price":  25.0,
                  "stockQuantity":  50,
                  "version":  0,
-                 "createdAt":  "2026-06-10T19:19:43.447325"
+                 "createdAt":  "2026-06-11T01:54:57.020576"
              },
-    "timestamp":  1781108383771
+    "timestamp":  1781132097115
 }

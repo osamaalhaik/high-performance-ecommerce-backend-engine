@@ -4,9 +4,9 @@
     "body":  {
                  "success":  true,
                  "message":  "Batch executed successfully",
-                 "data":  "Batch executed successfully | status=COMPLETED | exitStatus=COMPLETED",
-                 "timestamp":  1781125649710
+                 "data":  "Batch executed successfully | status=FAILED | exitStatus=FAILED",
+                 "timestamp":  1781132152669
              },
-    "rawBody":  "{\"success\":true,\"message\":\"Batch executed successfully\",\"data\":\"Batch executed successfully | status=COMPLETED | exitStatus=COMPLETED\",\"timestamp\":1781125649710}",
+    "rawBody":  "{\"success\":true,\"message\":\"Batch executed successfully\",\"data\":\"Batch executed successfully | status=FAILED | exitStatus=FAILED\",\"timestamp\":1781132152669}",
     "errorMessage":  null
 }

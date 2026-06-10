@@ -2,7 +2,7 @@
     "testName":  "Resource management and capacity control verification test",
     "baseUrl":  "http://localhost:9090",
     "concurrentOrders":  6,
-    "productId":  "666b05cd-4d11-4939-b994-401f7d07dc2f",
+    "productId":  "3361e856-a74d-4219-9330-6c90401e2501",
     "initialStock":  10,
     "successfulOrders":  6,
     "failedOrders":  0,
@@ -20,9 +20,9 @@
     "threadMetricAvailable":  true,
     "httpMetricAvailable":  true,
     "asyncThreadPoolConfigured":  true,
-    "minOrderElapsedMs":  1602,
-    "maxOrderElapsedMs":  6688,
-    "avgOrderElapsedMs":  4199.33,
+    "minOrderElapsedMs":  1294,
+    "maxOrderElapsedMs":  7413,
+    "avgOrderElapsedMs":  4356.67,
     "resourceRequirementSatisfied":  true,
-    "timestamp":  "2026-06-11T00:16:02"
+    "timestamp":  "2026-06-11T01:56:21"
 }

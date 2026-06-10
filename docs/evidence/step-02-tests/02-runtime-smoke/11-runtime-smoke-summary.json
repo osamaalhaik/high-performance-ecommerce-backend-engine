@@ -4,13 +4,13 @@
     "healthStatus":  "UP",
     "adminLoginSuccess":  true,
     "productCreated":  true,
-    "productId":  "2e9c971a-e2a0-4e39-9393-e894552c48d8",
+    "productId":  "04d3fb69-52df-45d8-af28-02e70e4acb73",
     "productsPageSuccess":  true,
     "productFirstReadSuccess":  true,
     "productSecondReadSuccess":  true,
     "customerRegisterSuccess":  true,
     "orderCreated":  true,
-    "orderId":  "c1846856-cb09-4e11-b7a4-bb4c7889fd77",
+    "orderId":  "25051179-ebb8-4879-9f13-6e34ce7eff10",
     "orderStatus":  "CONFIRMED",
     "myOrdersSuccess":  true,
     "adminStatsFirstSuccess":  true,
@@ -20,5 +20,5 @@
     "batchLockKey":  "lock:daily-sales-batch",
     "instanceEndpointSuccess":  true,
     "instanceName":  "ecommerce-engine-local",
-    "timestamp":  "2026-06-10T19:19:45"
+    "timestamp":  "2026-06-11T01:54:59"
 }
