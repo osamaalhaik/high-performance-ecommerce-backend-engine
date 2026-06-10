@@ -1,0 +1,402 @@
+﻿[
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  23,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012142
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  26,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012169
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  59,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012194
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  33,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012257
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  29,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012290
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  31,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012321
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  27,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012353
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  29,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012384
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  32,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012413
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  27,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012445
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  26,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012474
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  26,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012501
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  27,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012531
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  36,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012569
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  25,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012595
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  22,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012621
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  22,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012644
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  24,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012668
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  20,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012692
+                 },
+        "errorMessage":  null
+    },
+    {
+        "success":  true,
+        "httpStatus":  200,
+        "elapsedMs":  21,
+        "body":  {
+                     "success":  true,
+                     "message":  null,
+                     "data":  {
+                                  "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                                  "name":  "Benchmark Product 20260611013651494",
+                                  "description":  "Benchmarking and bottleneck analysis product",
+                                  "price":  4.0,
+                                  "stockQuantity":  30,
+                                  "version":  0,
+                                  "createdAt":  "2026-06-11T01:36:51.994216"
+                              },
+                     "timestamp":  1781131012712
+                 },
+        "errorMessage":  null
+    }
+]

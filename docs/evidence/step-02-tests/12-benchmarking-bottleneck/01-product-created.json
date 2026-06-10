@@ -1,0 +1,14 @@
+﻿{
+    "success":  true,
+    "message":  "Product created",
+    "data":  {
+                 "id":  "6d2d45a1-c71f-4f89-98ba-33fd8878fe32",
+                 "name":  "Benchmark Product 20260611013651494",
+                 "description":  "Benchmarking and bottleneck analysis product",
+                 "price":  4.0,
+                 "stockQuantity":  30,
+                 "version":  0,
+                 "createdAt":  "2026-06-11T01:36:51.9942164"
+             },
+    "timestamp":  1781131012003
+}
