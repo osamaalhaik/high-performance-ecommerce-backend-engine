@@ -1,0 +1,12 @@
+﻿{
+    "success":  true,
+    "httpStatus":  200,
+    "body":  {
+                 "success":  true,
+                 "message":  "Batch executed successfully",
+                 "data":  "Batch executed successfully | status=COMPLETED | exitStatus=COMPLETED",
+                 "timestamp":  1781125649710
+             },
+    "rawBody":  "{\"success\":true,\"message\":\"Batch executed successfully\",\"data\":\"Batch executed successfully | status=COMPLETED | exitStatus=COMPLETED\",\"timestamp\":1781125649710}",
+    "errorMessage":  null
+}

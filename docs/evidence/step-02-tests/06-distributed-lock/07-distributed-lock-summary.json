@@ -1,0 +1,23 @@
+﻿{
+    "testName":  "Redis distributed lock verification test",
+    "baseUrl":  "http://localhost:9090",
+    "redisHost":  "127.0.0.1",
+    "redisPort":  6379,
+    "lockKey":  "lock:daily-sales-batch",
+    "lockBefore":  false,
+    "manualRedisLockCreated":  true,
+    "lockExistsAfterManualSet":  1,
+    "lockTtlAfterManualSet":  60,
+    "lockStatusDuringManualLock":  true,
+    "batchRunWhileLockedHttpStatus":  423,
+    "batchRunWhileLockedSuccess":  false,
+    "manualLockDeleted":  1,
+    "lockStatusAfterManualDelete":  false,
+    "batchRunAfterUnlockHttpStatus":  200,
+    "batchRunAfterUnlockSuccess":  true,
+    "lockStatusAfterBatchRun":  false,
+    "blockedCorrectly":  true,
+    "unlockedRunSucceeded":  true,
+    "distributedLockRequirementSatisfied":  true,
+    "timestamp":  "2026-06-11T00:07:30"
+}
