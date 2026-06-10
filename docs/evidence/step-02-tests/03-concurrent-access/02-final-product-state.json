@@ -1,0 +1,14 @@
+﻿{
+    "success":  true,
+    "message":  null,
+    "data":  {
+                 "id":  "9aacd0c0-c3f9-44d3-9659-83c1cf342fba",
+                 "name":  "Concurrent Integrity Product 20260610192431450",
+                 "description":  "Concurrent access integrity test product",
+                 "price":  1.0,
+                 "stockQuantity":  0,
+                 "version":  10,
+                 "createdAt":  "2026-06-10T19:24:31.90305"
+             },
+    "timestamp":  1781108746670
+}
