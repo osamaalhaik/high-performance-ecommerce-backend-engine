@@ -1,0 +1,14 @@
+﻿{
+    "success":  true,
+    "message":  null,
+    "data":  {
+                 "id":  "6488fdd7-55d9-40f6-83b8-8dc0eba06979",
+                 "name":  "Redis Cache Product 20260610193055400",
+                 "description":  "Redis cache verification product",
+                 "price":  15.0,
+                 "stockQuantity":  30,
+                 "version":  0,
+                 "createdAt":  "2026-06-10T19:30:55.823129"
+             },
+    "timestamp":  1781109055883
+}
