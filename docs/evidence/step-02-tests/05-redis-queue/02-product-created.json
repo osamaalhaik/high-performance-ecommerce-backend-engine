@@ -1,0 +1,14 @@
+﻿{
+    "success":  true,
+    "message":  "Product created",
+    "data":  {
+                 "id":  "ad0c6fa2-ea9e-4e3c-b401-4f019910a385",
+                 "name":  "Redis Queue Product 20260610193623176",
+                 "description":  "Redis queue verification product",
+                 "price":  2.0,
+                 "stockQuantity":  11,
+                 "version":  0,
+                 "createdAt":  "2026-06-10T19:36:24.0428791"
+             },
+    "timestamp":  1781109384075
+}
