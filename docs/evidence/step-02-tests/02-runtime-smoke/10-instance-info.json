@@ -1,0 +1,11 @@
+﻿{
+    "success":  true,
+    "message":  "Instance information fetched successfully",
+    "data":  {
+                 "instanceName":  "ecommerce-engine-local",
+                 "timestamp":  "2026-06-10T19:19:45.970868600",
+                 "serverPort":  "9090",
+                 "thread":  "http-nio-9090-exec-3"
+             },
+    "timestamp":  1781108385970
+}
