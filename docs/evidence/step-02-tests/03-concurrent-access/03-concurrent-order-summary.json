@@ -1,7 +1,7 @@
 ﻿{
     "testName":  "Concurrent order integrity test",
     "baseUrl":  "http://localhost:9090",
-    "productId":  "20c6ab7f-ae5c-4fe3-9e3e-d0e878bdb220",
+    "productId":  "5dc85ccd-968b-401d-be6c-5055c8166977",
     "initialStock":  10,
     "concurrentAttempts":  20,
     "orderQuantity":  1,
@@ -12,8 +12,8 @@
     "integrityEquation":  "0 + 10 = 10",
     "integrityHolds":  true,
     "noOverselling":  true,
-    "minElapsedMs":  102,
-    "maxElapsedMs":  10959,
-    "avgElapsedMs":  4775.75,
-    "timestamp":  "2026-06-11T01:55:25"
+    "minElapsedMs":  1303,
+    "maxElapsedMs":  7810,
+    "avgElapsedMs":  5532.9,
+    "timestamp":  "2026-06-11T21:08:01"
 }

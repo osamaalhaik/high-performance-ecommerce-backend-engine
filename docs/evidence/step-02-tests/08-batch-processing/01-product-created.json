@@ -2,13 +2,13 @@
     "success":  true,
     "message":  "Product created",
     "data":  {
-                 "id":  "a40596bb-c6cd-4e84-974b-70705e4f64d7",
-                 "name":  "Batch Processing Product 20260611015556316",
+                 "id":  "f79fc975-a1a4-4883-a3db-7842bbfd0a00",
+                 "name":  "Batch Processing Product 20260611210819522",
                  "description":  "Batch processing verification product",
                  "price":  5.0,
                  "stockQuantity":  15,
                  "version":  0,
-                 "createdAt":  "2026-06-11T01:55:56.8185253"
+                 "createdAt":  "2026-06-11T21:08:19.9905708"
              },
-    "timestamp":  1781132156822
+    "timestamp":  1781201299998
 }

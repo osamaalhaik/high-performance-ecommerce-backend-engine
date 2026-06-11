@@ -1,21 +1,38 @@
-﻿events {}
+﻿events {
+    worker_connections 1024;
+}
 
 http {
+    log_format ecommerce_upstream '$remote_addr "$request" status=$status upstream=$upstream_addr request_time=$request_time upstream_time=$upstream_response_time';
+
     upstream ecommerce_backend {
-        server 127.0.0.1:9091 weight=3;
-        server 127.0.0.1:9092 weight=2;
-        server 127.0.0.1:9093 weight=1;
+        server 127.0.0.1:9091 weight=3 max_fails=3 fail_timeout=10s;
+        server 127.0.0.1:9092 weight=2 max_fails=3 fail_timeout=10s;
+        server 127.0.0.1:9093 weight=1 max_fails=3 fail_timeout=10s;
     }
 
     server {
         listen 8080;
+        server_name localhost;
+
+        access_log C:/nginx/logs/ecommerce_access.log ecommerce_upstream;
+        error_log C:/nginx/logs/ecommerce_error.log;
 
         location / {
             proxy_pass http://ecommerce_backend;
+            proxy_http_version 1.1;
+
             proxy_set_header Host $host;
             proxy_set_header X-Real-IP $remote_addr;
             proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
             proxy_set_header X-Forwarded-Proto $scheme;
+
+            proxy_connect_timeout 10s;
+            proxy_send_timeout 120s;
+            proxy_read_timeout 120s;
+
+            add_header X-Upstream-Server $upstream_addr always;
+            add_header X-Load-Balancer "nginx-weighted-round-robin" always;
         }
     }
 }

@@ -13,9 +13,9 @@ spring:
     username: postgres
     password: postgres
     hikari:
-      maximum-pool-size: 20
+      maximum-pool-size: 50
       minimum-idle: 5
-      connection-timeout: 30000
+      connection-timeout: 180000
       idle-timeout: 600000
       max-lifetime: 1800000
 
@@ -52,7 +52,7 @@ jwt:
 async:
   core-pool-size: 5
   max-pool-size: 20
-  queue-capacity: 100
+  queue-capacity: 300
   thread-name-prefix: "ecommerce-async-"
 
 queue:
@@ -78,3 +78,4 @@ logging:
     org.hibernate.orm.jdbc.bind: TRACE
   pattern:
     console: "%d{HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+

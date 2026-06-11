@@ -5,16 +5,16 @@
     "redisPort":  6379,
     "readyQueueKey":  "ecommerce:queue:async-jobs",
     "failedQueueKey":  "ecommerce:queue:async-jobs:failed",
-    "productId":  "0d5e112d-b3a8-491d-a70b-413adcf5f019",
+    "productId":  "79930d33-4bbc-493d-a3d9-8f35755cfbaa",
     "orderCount":  6,
     "successfulOrders":  6,
     "failedOrders":  0,
     "expectedJobs":  12,
     "readyBefore":  0,
     "failedBefore":  0,
-    "readyAfterOrders":  9,
+    "readyAfterOrders":  6,
     "failedAfterOrders":  0,
-    "maxObservedReadyQueueLength":  9,
+    "maxObservedReadyQueueLength":  6,
     "readyAfterDrain":  0,
     "failedAfterDrain":  0,
     "ordersCreated":  true,
@@ -23,5 +23,5 @@
     "failedQueueDidNotIncrease":  true,
     "queueRequirementSatisfied":  true,
     "finalProductStock":  5,
-    "timestamp":  "2026-06-11T01:55:50"
+    "timestamp":  "2026-06-11T21:05:34"
 }

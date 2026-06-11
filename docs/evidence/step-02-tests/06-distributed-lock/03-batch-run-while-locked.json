@@ -5,8 +5,8 @@
                  "success":  false,
                  "message":  "Batch is already running under a Redis distributed lock",
                  "data":  "lock:daily-sales-batch",
-                 "timestamp":  1781132151375
+                 "timestamp":  1781201138955
              },
-    "rawBody":  "{\"success\":false,\"message\":\"Batch is already running under a Redis distributed lock\",\"data\":\"lock:daily-sales-batch\",\"timestamp\":1781132151375}",
+    "rawBody":  "{\"success\":false,\"message\":\"Batch is already running under a Redis distributed lock\",\"data\":\"lock:daily-sales-batch\",\"timestamp\":1781201138955}",
     "errorMessage":  "Batch is already running under a Redis distributed lock"
 }

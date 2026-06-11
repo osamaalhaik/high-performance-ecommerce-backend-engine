@@ -2,17 +2,17 @@
 
 ## Numeric Benchmark Summary
 
-- Product cache miss: 42 ms
-- Product cache hit average over 20 reads: 36.5 ms
-- Product cache improvement: 13.1 %
+- Product cache miss: 50 ms
+- Product cache hit average over 20 reads: 34.9 ms
+- Product cache improvement: 30.2 %
 
-- Admin stats cache miss: 32 ms
-- Admin stats cache hit average over 20 reads: 26.85 ms
-- Admin stats cache improvement: 16.09 %
+- Admin stats cache miss: 43 ms
+- Admin stats cache hit average over 20 reads: 32.7 ms
+- Admin stats cache improvement: 23.95 %
 
-- Order creation average over 10 orders: 1264.4 ms
+- Order creation average over 10 orders: 1279.9 ms
 - Order creation min: 1252 ms
-- Order creation max: 1277 ms
+- Order creation max: 1329 ms
 
 ## Identified Bottleneck
 

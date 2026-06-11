@@ -1,18 +1,18 @@
 ﻿{
     "success":  true,
     "httpStatus":  200,
-    "elapsedMs":  32,
+    "elapsedMs":  43,
     "body":  {
                  "success":  true,
                  "message":  "Admin stats fetched successfully",
                  "data":  {
-                              "ordersLast24h":  554,
-                              "revenueLast24h":  14189.0,
-                              "activeThreads":  46,
-                              "loadBalancerStats":  "server-1=12, server-2=8, server-3=4",
-                              "timestamp":  "2026-06-11T01:57:38.444846"
+                              "ordersLast24h":  1059,
+                              "revenueLast24h":  4050.0,
+                              "activeThreads":  47,
+                              "loadBalancerStats":  "server-1=6, server-2=4, server-3=2",
+                              "timestamp":  "2026-06-11T22:15:20.014080500"
                           },
-                 "timestamp":  1781132258445
+                 "timestamp":  1781205320014
              },
     "errorMessage":  null
 }

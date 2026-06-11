@@ -2,11 +2,11 @@
     "success":  true,
     "message":  "Admin stats fetched successfully",
     "data":  {
-                 "ordersLast24h":  436,
-                 "revenueLast24h":  14014.0,
-                 "activeThreads":  34,
-                 "loadBalancerStats":  "server-1=6, server-2=4, server-3=2",
-                 "timestamp":  "2026-06-11T01:55:25.729999300"
+                 "ordersLast24h":  815,
+                 "revenueLast24h":  3707.0,
+                 "activeThreads":  32,
+                 "loadBalancerStats":  "server-1=0, server-2=0, server-3=0",
+                 "timestamp":  "2026-06-11T21:04:46.659877200"
              },
-    "timestamp":  1781132125739
+    "timestamp":  1781201086708
 }

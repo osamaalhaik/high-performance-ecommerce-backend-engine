@@ -1,7 +1,7 @@
 ﻿{
     "testName":  "Batch processing verification test",
     "baseUrl":  "http://localhost:9090",
-    "productId":  "a40596bb-c6cd-4e84-974b-70705e4f64d7",
+    "productId":  "f79fc975-a1a4-4883-a3db-7842bbfd0a00",
     "orderCount":  5,
     "successfulOrders":  5,
     "failedOrders":  0,
@@ -9,10 +9,10 @@
     "batchRunHttpStatus":  200,
     "batchRunSuccess":  true,
     "batchCompleted":  true,
-    "batchElapsedMs":  897,
+    "batchElapsedMs":  1062,
     "expectedFinalStock":  10,
     "actualFinalStock":  10,
     "productStockConsistent":  true,
     "batchRequirementSatisfied":  true,
-    "timestamp":  "2026-06-11T01:56:08"
+    "timestamp":  "2026-06-11T21:08:32"
 }

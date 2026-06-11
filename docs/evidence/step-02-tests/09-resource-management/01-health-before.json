@@ -12,7 +12,7 @@
                                          "status":  "UP",
                                          "details":  {
                                                          "total":  500032335872,
-                                                         "free":  424413372416,
+                                                         "free":  424402366464,
                                                          "threshold":  10485760,
                                                          "path":  "E:\\Work\\IdeaProjects\\ecommerce-engine\\.",
                                                          "exists":  true

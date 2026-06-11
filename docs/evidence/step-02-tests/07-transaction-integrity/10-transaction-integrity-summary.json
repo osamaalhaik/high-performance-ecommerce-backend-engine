@@ -1,7 +1,7 @@
 ﻿{
     "testName":  "Transaction integrity and ACID rollback verification test",
     "baseUrl":  "http://localhost:9090",
-    "successProductId":  "20f69f0b-4668-4cdd-a7d8-aceaf6cbb60d",
+    "successProductId":  "1917c221-05b8-4717-8b14-221565c151c5",
     "successInitialStock":  3,
     "successOrderQuantity":  2,
     "successExpectedFinalStock":  1,
@@ -10,7 +10,7 @@
     "successOrderCreated":  true,
     "successStockUpdatedCorrectly":  true,
     "successOrderVisible":  true,
-    "failureProductId":  "ab653531-c3bc-4831-b0cb-5669400d4f6f",
+    "failureProductId":  "74a154fe-d729-4c75-90bb-48dfb8aac2d4",
     "failureInitialStock":  1,
     "failureActualFinalStock":  1,
     "failedOrderHttpStatus":  400,
@@ -23,5 +23,5 @@
     "successTransactionSatisfied":  true,
     "rollbackTransactionSatisfied":  true,
     "acidRequirementSatisfied":  true,
-    "timestamp":  "2026-06-11T01:55:56"
+    "timestamp":  "2026-06-11T21:08:08"
 }
