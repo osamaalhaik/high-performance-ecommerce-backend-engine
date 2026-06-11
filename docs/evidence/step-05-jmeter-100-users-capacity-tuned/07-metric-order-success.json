@@ -1,0 +1,12 @@
+﻿{
+    "name":  "ecommerce.orders.success",
+    "measurements":  [
+                         {
+                             "statistic":  "COUNT",
+                             "value":  100.0
+                         }
+                     ],
+    "availableTags":  [
+
+                      ]
+}

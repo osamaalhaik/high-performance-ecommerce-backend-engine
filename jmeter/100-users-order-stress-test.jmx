@@ -19,7 +19,7 @@
           </elementProp>
           <elementProp name="product_id" elementType="Argument">
             <stringProp name="Argument.name">product_id</stringProp>
-            <stringProp name="Argument.value">682f2a5e-b064-4aab-a163-212a8f5c18d8</stringProp>
+            <stringProp name="Argument.value">cb40c336-1209-4c21-9f74-d360b396734d</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="users" elementType="Argument">
@@ -67,7 +67,7 @@
             </collectionProp>
           </elementProp>
           <stringProp name="HTTPSampler.connect_timeout">5000</stringProp>
-          <stringProp name="HTTPSampler.response_timeout">15000</stringProp>
+          <stringProp name="HTTPSampler.response_timeout">60000</stringProp>
         </HTTPSamplerProxy>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="JSON Headers" enabled="true">
@@ -102,7 +102,7 @@
             <collectionProp name="Arguments.arguments"/>
           </elementProp>
           <stringProp name="HTTPSampler.connect_timeout">5000</stringProp>
-          <stringProp name="HTTPSampler.response_timeout">15000</stringProp>
+          <stringProp name="HTTPSampler.response_timeout">60000</stringProp>
         </HTTPSamplerProxy>
         <hashTree/>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="03 Place Order" enabled="true">
@@ -122,7 +122,7 @@
             </collectionProp>
           </elementProp>
           <stringProp name="HTTPSampler.connect_timeout">5000</stringProp>
-          <stringProp name="HTTPSampler.response_timeout">30000</stringProp>
+          <stringProp name="HTTPSampler.response_timeout">180000</stringProp>
         </HTTPSamplerProxy>
         <hashTree>
           <HeaderManager guiclass="HeaderPanel" testclass="HeaderManager" testname="Authenticated JSON Headers" enabled="true">
@@ -184,6 +184,8 @@
     </hashTree>
   </hashTree>
 </jmeterTestPlan>
+
+
 
 
 

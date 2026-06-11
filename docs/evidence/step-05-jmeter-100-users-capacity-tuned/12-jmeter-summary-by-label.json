@@ -1,0 +1,29 @@
+﻿[
+    {
+        "label":  "01 Register Customer",
+        "samples":  100,
+        "success":  100,
+        "failures":  0,
+        "averageMs":  2656.32,
+        "minMs":  703,
+        "maxMs":  7573
+    },
+    {
+        "label":  "02 Read Product From Catalog",
+        "samples":  100,
+        "success":  100,
+        "failures":  0,
+        "averageMs":  1262.23,
+        "minMs":  4,
+        "maxMs":  18843
+    },
+    {
+        "label":  "03 Place Order",
+        "samples":  100,
+        "success":  100,
+        "failures":  0,
+        "averageMs":  50716.81,
+        "minMs":  1610,
+        "maxMs":  94879
+    }
+]

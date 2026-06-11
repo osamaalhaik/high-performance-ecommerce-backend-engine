@@ -1,0 +1,13 @@
+﻿{
+    "name":  "system.cpu.usage",
+    "description":  "The \"recent cpu usage\" of the system the application is running in",
+    "measurements":  [
+                         {
+                             "statistic":  "VALUE",
+                             "value":  0.0
+                         }
+                     ],
+    "availableTags":  [
+
+                      ]
+}

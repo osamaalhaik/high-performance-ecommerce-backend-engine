@@ -1,0 +1,48 @@
+﻿{
+    "name":  "ecommerce.service.execution.time",
+    "baseUnit":  "seconds",
+    "measurements":  [
+                         {
+                             "statistic":  "COUNT",
+                             "value":  326.0
+                         },
+                         {
+                             "statistic":  "TOTAL_TIME",
+                             "value":  4541.747358899999
+                         },
+                         {
+                             "statistic":  "MAX",
+                             "value":  63.0375024
+                         }
+                     ],
+    "availableTags":  [
+                          {
+                              "tag":  "method",
+                              "values":  [
+                                             "sendOrderConfirmation",
+                                             "placeOrder",
+                                             "generateInvoice",
+                                             "createProduct",
+                                             "login",
+                                             "getProductById",
+                                             "register"
+                                         ]
+                          },
+                          {
+                              "tag":  "class",
+                              "values":  [
+                                             "InvoiceService",
+                                             "NotificationService",
+                                             "OrderService",
+                                             "ProductService",
+                                             "AuthService"
+                                         ]
+                          },
+                          {
+                              "tag":  "status",
+                              "values":  [
+                                             "success"
+                                         ]
+                          }
+                      ]
+}

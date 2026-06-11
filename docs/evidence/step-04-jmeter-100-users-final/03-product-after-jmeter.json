@@ -1,0 +1,14 @@
+﻿{
+    "success":  true,
+    "message":  null,
+    "data":  {
+                 "id":  "097b4d95-1bf4-4036-a314-4ae5b22b6fdb",
+                 "name":  "JMeter Final Stress Product 20260611-141712",
+                 "description":  "Fresh product for final 100 users JMeter stress test",
+                 "price":  10.0,
+                 "stockQuantity":  916,
+                 "version":  84,
+                 "createdAt":  "2026-06-11T14:17:15.58126"
+             },
+    "timestamp":  1781176767744
+}
