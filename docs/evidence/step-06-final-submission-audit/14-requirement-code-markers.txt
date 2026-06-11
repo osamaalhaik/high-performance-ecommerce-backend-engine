@@ -1,0 +1,78 @@
+﻿E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\aspect\PerformanceMonitoringAspect.java:13: @Aspect
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\aspect\PerformanceMonitoringAspect.java:19: private final MeterRegistry meterRegistry;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\aspect\PerformanceMonitoringAspect.java:25: meterRegistry.gauge("ecommerce.active.service.calls", activeServiceCalls);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\aspect\PerformanceMonitoringAspect.java:45: Timer.Sample sample = Timer.start(meterRegistry);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\aspect\PerformanceMonitoringAspect.java:58: .register(meterRegistry)
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\aspect\PerformanceMonitoringAspect.java:65: meterRegistry.counter(
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\aspect\PerformanceMonitoringAspect.java:81: .register(meterRegistry)
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\aspect\PerformanceMonitoringAspect.java:84: meterRegistry.counter(
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\aspect\PerformanceMonitoringAspect.java:104: meterRegistry.counter("ecommerce.orders.attempts").increment();
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\aspect\PerformanceMonitoringAspect.java:112: meterRegistry.counter("ecommerce.orders.success").increment();
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\aspect\PerformanceMonitoringAspect.java:120: meterRegistry.counter(
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\batch\DailySalesBatchConfig.java:113: return chunk -> {
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\batch\DailySalesBatchConfig.java:115: for (SalesSummary summary : chunk.getItems()) {
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\batch\DailySalesBatchConfig.java:123: "[BATCH-WRITER] Chunk processed | orders={} | revenue={}",
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\batch\DailySalesBatchConfig.java:138: .<Order, SalesSummary>chunk(
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\AsyncConfig.java:7: import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\AsyncConfig.java:31: ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\AsyncConfig.java:52: ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\LoadBalancerConfig.java:13: public WeightedRoundRobinLoadBalancer weightedRoundRobinLoadBalancer() {
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\LoadBalancerConfig.java:14: return new WeightedRoundRobinLoadBalancer(
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\LoadBalancerConfig.java:20: public static class WeightedRoundRobinLoadBalancer {
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\LoadBalancerConfig.java:30: public WeightedRoundRobinLoadBalancer(String[] servers, int[] weights) {
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\RedisConfig.java:11: import org.springframework.data.redis.cache.*;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\RedisConfig.java:12: import org.springframework.data.redis.connection.RedisConnectionFactory;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\RedisConfig.java:13: import org.springframework.data.redis.serializer.*;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\RedisConfig.java:19: public class RedisConfig {
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\RedisConfig.java:22: public CacheManager cacheManager(RedisConnectionFactory redisConnectionFactory) {
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\RedisConfig.java:35: GenericJackson2JsonRedisSerializer serializer =
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\RedisConfig.java:36: new GenericJackson2JsonRedisSerializer(objectMapper);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\RedisConfig.java:38: RedisCacheConfiguration defaultConfig = RedisCacheConfiguration
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\RedisConfig.java:42: RedisSerializationContext.SerializationPair.fromSerializer(
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\RedisConfig.java:43: new StringRedisSerializer()
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\RedisConfig.java:47: RedisSerializationContext.SerializationPair.fromSerializer(serializer)
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\config\RedisConfig.java:51: return RedisCacheManager.builder(redisConnectionFactory)
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\controller\AdminController.java:6: import com.ecommerce.lock.RedisDistributedLockService;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\controller\AdminController.java:32: private final LoadBalancerConfig.WeightedRoundRobinLoadBalancer loadBalancer;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\controller\AdminController.java:33: private final RedisDistributedLockService distributedLockService;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\controller\AdminController.java:74: "Batch is already running under a Redis distributed lock",
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\entity\Product.java:40: @Version
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\lock\RedisDistributedLockService.java:5: import org.springframework.data.redis.core.StringRedisTemplate;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\lock\RedisDistributedLockService.java:6: import org.springframework.data.redis.core.script.DefaultRedisScript;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\lock\RedisDistributedLockService.java:17: public class RedisDistributedLockService {
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\lock\RedisDistributedLockService.java:19: private final StringRedisTemplate redisTemplate;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\lock\RedisDistributedLockService.java:23: Boolean acquired = redisTemplate.opsForValue().setIfAbsent(key, token, ttl);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\lock\RedisDistributedLockService.java:35: String scriptText = "if redis.call('get', KEYS[1]) == ARGV[1] then return redis.call('del', KEYS[1]) else return 0 end";
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\lock\RedisDistributedLockService.java:36: DefaultRedisScript<Long> script = new DefaultRedisScript<>(scriptText, Long.class);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\lock\RedisDistributedLockService.java:38: Long result = redisTemplate.execute(
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\lock\RedisDistributedLockService.java:56: return Boolean.TRUE.equals(redisTemplate.hasKey(key));
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\lock\RedisDistributedLockService.java:60: return redisTemplate.getExpire(key);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\queue\AsyncJobQueueService.java:9: import org.springframework.data.redis.core.StringRedisTemplate;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\queue\AsyncJobQueueService.java:24: private final StringRedisTemplate redisTemplate;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\queue\AsyncJobQueueService.java:66: redisTemplate.opsForList().rightPush(readyKey, payload);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\queue\AsyncJobQueueService.java:67: log.info("[REDIS-QUEUE] job-enqueued | type={} | readyKey={}", job.getType(), readyKey);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\queue\AsyncJobQueueService.java:69: log.error("[REDIS-QUEUE] enqueue-failed | type={} | error={}", job.getType(), ex.getMessage(), ex);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\queue\AsyncJobQueueService.java:76: String payload = redisTemplate.opsForList().leftPop(readyKey);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\queue\AsyncJobQueueService.java:85: log.info("[REDIS-QUEUE] job-processed | type={}", job.getType());
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\queue\AsyncJobQueueService.java:87: redisTemplate.opsForList().rightPush(failedKey, payload);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\queue\AsyncJobQueueService.java:88: log.error("[REDIS-QUEUE] job-failed | failedKey={} | error={}", failedKey, ex.getMessage(), ex);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\repository\ProductRepository.java:15: @Lock(LockModeType.PESSIMISTIC_WRITE)
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\repository\UserRepository.java:19: @Lock(LockModeType.PESSIMISTIC_WRITE)
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\AdminStatsService.java:8: import org.springframework.data.redis.core.StringRedisTemplate;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\AdminStatsService.java:23: private final LoadBalancerConfig.WeightedRoundRobinLoadBalancer loadBalancer;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\AdminStatsService.java:24: private final StringRedisTemplate redisTemplate;
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\AdminStatsService.java:28: String cached = redisTemplate.opsForValue().get(ADMIN_STATS_CACHE_KEY);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\AdminStatsService.java:36: redisTemplate.delete(ADMIN_STATS_CACHE_KEY);
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\AdminStatsService.java:51: redisTemplate.opsForValue().set(
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\AuthService.java:27: @Transactional
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\OrderService.java:38: @Transactional(
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\OrderService.java:164: @Transactional(readOnly = true)
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\ProductService.java:23: @Cacheable(value = "products", key = "#id")
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\ProductService.java:24: @Transactional(readOnly = true)
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\ProductService.java:34: @Transactional(readOnly = true)
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\ProductService.java:43: @Transactional
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\ProductService.java:44: @CacheEvict(value = "products", allEntries = true)
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\ProductService.java:60: @Transactional
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\ProductService.java:61: @CacheEvict(value = "products", key = "#productId")
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\ProductService.java:81: @Transactional
+E:\Work\IdeaProjects\ecommerce-engine\src\main\java\com\ecommerce\service\ProductService.java:82: @CacheEvict(value = "products", key = "#id")
