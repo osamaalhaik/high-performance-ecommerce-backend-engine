@@ -14,12 +14,12 @@
           </elementProp>
           <elementProp name="base_port" elementType="Argument">
             <stringProp name="Argument.name">base_port</stringProp>
-            <stringProp name="Argument.value">8081</stringProp>
+            <stringProp name="Argument.value">9090</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="product_id" elementType="Argument">
             <stringProp name="Argument.name">product_id</stringProp>
-            <stringProp name="Argument.value">REPLACE_WITH_PRODUCT_ID</stringProp>
+            <stringProp name="Argument.value">682f2a5e-b064-4aab-a163-212a8f5c18d8</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="users" elementType="Argument">
@@ -184,3 +184,6 @@
     </hashTree>
   </hashTree>
 </jmeterTestPlan>
+
+
+

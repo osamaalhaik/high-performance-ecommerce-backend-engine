@@ -1,0 +1,14 @@
+﻿{
+    "success":  true,
+    "message":  null,
+    "data":  {
+                 "id":  "682f2a5e-b064-4aab-a163-212a8f5c18d8",
+                 "name":  "JMeter Stress Product 20260611-113650",
+                 "description":  "Product created for 100 concurrent users stress testing",
+                 "price":  10.0,
+                 "stockQuantity":  500,
+                 "version":  0,
+                 "createdAt":  "2026-06-11T11:38:15.501866"
+             },
+    "timestamp":  1781167096583
+}

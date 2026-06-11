@@ -1,0 +1,41 @@
+﻿{
+    "name":  "ecommerce.service.execution.time",
+    "baseUnit":  "seconds",
+    "measurements":  [
+                         {
+                             "statistic":  "COUNT",
+                             "value":  3.0
+                         },
+                         {
+                             "statistic":  "TOTAL_TIME",
+                             "value":  1.8800161999999998
+                         },
+                         {
+                             "statistic":  "MAX",
+                             "value":  1.6675456
+                         }
+                     ],
+    "availableTags":  [
+                          {
+                              "tag":  "method",
+                              "values":  [
+                                             "login",
+                                             "getProductById",
+                                             "createProduct"
+                                         ]
+                          },
+                          {
+                              "tag":  "class",
+                              "values":  [
+                                             "ProductService",
+                                             "AuthService"
+                                         ]
+                          },
+                          {
+                              "tag":  "status",
+                              "values":  [
+                                             "success"
+                                         ]
+                          }
+                      ]
+}
