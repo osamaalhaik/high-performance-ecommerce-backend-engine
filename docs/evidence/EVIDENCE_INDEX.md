@@ -84,3 +84,7 @@ Proves AOP service execution metrics, order counters, Redis interaction metrics,
 Path: infra/nginx/nginx.conf
 
 Proves that the project includes a real Nginx weighted reverse proxy configuration for distributing requests across backend instances.
+
+Screenshot: infra/nginx/screenshots/nginx-weighted-load-balancer-60-requests.png
+
+This screenshot proves the runtime weighted distribution result of 60 requests through Nginx: 30 requests to 9091, 20 requests to 9092, and 10 requests to 9093.

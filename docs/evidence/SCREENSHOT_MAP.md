@@ -69,3 +69,9 @@
 | 06-actuator-prometheus-batch-job-metrics.png | Batch job metrics |
 | 07-actuator-prometheus-executor-pool-metrics.png | Executor pool metrics |
 | 08-actuator-prometheus-batch-chunk-write-metrics.png | Batch chunk write metrics |
+
+## Nginx Infrastructure Screenshots
+
+| File | Purpose |
+|---|---|
+| infra/nginx/screenshots/nginx-weighted-load-balancer-60-requests.png | Proves weighted Nginx load balancing distribution across 9091, 9092, and 9093 with 30/20/10 request ratio |
