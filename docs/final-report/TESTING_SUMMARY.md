@@ -1,20 +1,36 @@
+﻿# Testing Summary
 
+## Postman API Verification
 
-<!-- AUTO-JMETER-STRESS-START -->
-## JMeter 100 Users Stress Test and Bottleneck Analysis
+Postman was used to verify health, authentication, product APIs, order creation, customer orders, admin statistics, batch execution, and load balancer server selection.
 
-A 100-user JMeter stress test was executed on the backend using a scenario composed of Register Customer, Read Product From Catalog, and Place Order. The test produced 300 total samples.
+Evidence path: postman/screenshots
 
-Before capacity tuning, the system preserved stock integrity but exposed a bottleneck in the Place Order path. The first run produced 17 failed samples out of 300, with an error rate of 5.67%. Stock integrity remained correct because the stock moved from 1000 to 916, matching 84 successful order requests.
+## JMeter Stress Testing
 
-After capacity tuning, Hikari maximum-pool-size was increased from 20 to 50, Hikari connection-timeout from 30000ms to 180000ms, and async queue-capacity from 100 to 300. The final run completed 300 successful samples out of 300, with 0% error rate. The Place Order request completed 100 successful orders and the stock moved from 1000 to 900, exactly matching the expected stock value after successful orders.
+Apache JMeter was used to execute a 100-user stress test.
 
-This evidence proves stress testing, bottleneck analysis, resource capacity management, ACID transaction integrity, and shared stock protection under concurrent access.
+Final evidence:
 
-Detailed evidence is available in:
+- jmeter/100-users-order-stress-test.jmx
+- jmeter/screenshots
 
-- docs/final-report/JMETER_100_USERS_STRESS_TEST_AND_BOTTLENECK_ANALYSIS.md
-- docs/evidence/step-04-jmeter-100-users-final/
-- docs/evidence/step-05-jmeter-100-users-capacity-tuned/
-- jmeter/results/100-users-capacity-tuned-20260611-142546/html-report/index.html
-<!-- AUTO-JMETER-STRESS-END -->
+The final Summary Report proves the expected behavior under concurrent load.
+
+## Database Verification
+
+PostgreSQL evidence proves that users, products, orders, order items, payments, and batch metadata are persisted correctly.
+
+Evidence path: database/screenshots
+
+## Redis Verification
+
+Redis evidence proves that a product cache key was created with a TTL.
+
+Evidence path: redis/screenshots
+
+## Monitoring Verification
+
+Prometheus evidence proves AOP service execution metrics, order counters, Redis queue metrics, batch metrics, and executor metrics.
+
+Evidence path: monitoring/screenshots

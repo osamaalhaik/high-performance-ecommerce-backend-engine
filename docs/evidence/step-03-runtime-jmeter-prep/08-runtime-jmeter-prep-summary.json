@@ -1,9 +1,0 @@
-﻿{
-    "timestamp":  "20260611-113650",
-    "baseUrl":  "http://localhost:9090",
-    "appPort":  "9090",
-    "productId":  "682f2a5e-b064-4aab-a163-212a8f5c18d8",
-    "jmeterPlan":  "jmeter/100-users-order-stress-test.jmx",
-    "evidenceDir":  ".\\docs\\evidence\\step-03-runtime-jmeter-prep",
-    "healthStatus":  "UP"
-}

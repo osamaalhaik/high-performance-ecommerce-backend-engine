@@ -1,20 +1,33 @@
+﻿# Benchmark and Bottleneck Analysis
 
+## Benchmark Scope
 
-<!-- AUTO-JMETER-STRESS-START -->
-## JMeter 100 Users Stress Test and Bottleneck Analysis
+The benchmark evidence focuses on product reads, admin statistics, order creation, JMeter 100 users stress testing, and Prometheus service execution metrics.
 
-A 100-user JMeter stress test was executed on the backend using a scenario composed of Register Customer, Read Product From Catalog, and Place Order. The test produced 300 total samples.
+## Main Bottleneck
 
-Before capacity tuning, the system preserved stock integrity but exposed a bottleneck in the Place Order path. The first run produced 17 failed samples out of 300, with an error rate of 5.67%. Stock integrity remained correct because the stock moved from 1000 to 916, matching 84 successful order requests.
+The main bottleneck is the order creation path.
 
-After capacity tuning, Hikari maximum-pool-size was increased from 20 to 50, Hikari connection-timeout from 30000ms to 180000ms, and async queue-capacity from 100 to 300. The final run completed 300 successful samples out of 300, with 0% error rate. The Place Order request completed 100 successful orders and the stock moved from 1000 to 900, exactly matching the expected stock value after successful orders.
+Reason:
 
-This evidence proves stress testing, bottleneck analysis, resource capacity management, ACID transaction integrity, and shared stock protection under concurrent access.
+- It runs inside a database transaction.
+- It validates stock.
+- It validates wallet balance.
+- It persists order data.
+- It persists payment data.
+- It updates product stock.
+- It triggers post-order processing.
 
-Detailed evidence is available in:
+## Evidence
 
-- docs/final-report/JMETER_100_USERS_STRESS_TEST_AND_BOTTLENECK_ANALYSIS.md
-- docs/evidence/step-04-jmeter-100-users-final/
-- docs/evidence/step-05-jmeter-100-users-capacity-tuned/
-- jmeter/results/100-users-capacity-tuned-20260611-142546/html-report/index.html
-<!-- AUTO-JMETER-STRESS-END -->
+| Evidence | Path |
+|---|---|
+| JMeter summary | jmeter/screenshots/12-summary-zero-errors.png |
+| AOP service execution metrics | monitoring/screenshots/01-actuator-prometheus-aop-service-metrics.png |
+| Order counters | monitoring/screenshots/02-actuator-prometheus-orders-attempts-metrics.png |
+| Order success metrics | monitoring/screenshots/03-actuator-prometheus-orders-success-metrics.png |
+| Order failure metrics | monitoring/screenshots/04-actuator-prometheus-orders-failures-metrics.png |
+
+## Final Interpretation
+
+The system prioritizes correctness over raw speed in the order transaction path. This is appropriate for an e-commerce backend because overselling and wallet inconsistency are more serious than slower transaction latency.
