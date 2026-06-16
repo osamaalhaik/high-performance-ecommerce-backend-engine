@@ -78,3 +78,9 @@ Expected files:
 - 08-actuator-prometheus-batch-chunk-write-metrics.png
 
 Proves AOP service execution metrics, order counters, Redis interaction metrics, async queue activity, batch metrics, and executor metrics.
+
+## 6. Infrastructure and Nginx Load Balancing Configuration
+
+Path: infra/nginx/nginx.conf
+
+Proves that the project includes a real Nginx weighted reverse proxy configuration for distributing requests across backend instances.

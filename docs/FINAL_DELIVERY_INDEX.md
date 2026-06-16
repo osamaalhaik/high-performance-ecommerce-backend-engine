@@ -24,3 +24,9 @@ The final project state is verified by:
 - git tag
 
 A clean git status means all final evidence is tracked.
+
+## Infrastructure Evidence
+
+| File | Purpose |
+|---|---|
+| infra/nginx/nginx.conf | Defines Nginx weighted reverse proxy configuration for load distribution across backend instances |
