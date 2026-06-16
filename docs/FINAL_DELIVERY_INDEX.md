@@ -9,7 +9,7 @@ High-Performance E-Commerce Backend Engine
 | Area | Path | Purpose |
 |---|---|---|
 | API Verification | postman/screenshots | Authentication, products, orders, admin APIs, batch endpoint, and load balancer endpoint |
-| Stress Testing | jmeter | JMeter test plan, execution result file, and screenshots for 100 users |
+| Stress Testing | jmeter | JMeter test plan and screenshots for 100 users |
 | Database Evidence | database/screenshots | Persisted users, products, orders, order items, payments, and batch metadata |
 | Redis Evidence | redis/screenshots | Redis cache key creation and TTL |
 | Monitoring Evidence | monitoring/screenshots | Prometheus metrics, AOP metrics, order counters, Redis queue metrics, batch metrics, and executor metrics |

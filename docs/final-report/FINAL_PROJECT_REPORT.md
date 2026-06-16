@@ -38,7 +38,7 @@ The project implements a backend engine for an e-commerce system that handles co
 | Evidence Type | Path |
 |---|---|
 | Postman screenshots | postman/screenshots |
-| JMeter plan and results | jmeter |
+| JMeter plan and screenshots | jmeter |
 | Database screenshots | database/screenshots |
 | Redis screenshots | redis/screenshots |
 | Monitoring screenshots | monitoring/screenshots |
